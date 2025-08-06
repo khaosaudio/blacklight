@@ -1,0 +1,33 @@
+{
+  "name": "blacklight",
+  "displayName": "Blacklight Theme",
+  "description": "Blacklight theme for Visual Studio Code",
+  "author": "KhaosAudio",
+  "version": "1.0.3",
+  "publisher": "KhaosAudio",
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "black",
+    "contrast"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blacklight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blacklight-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khaosaudio/blacklight"
+  }
+}
